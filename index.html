@@ -7,30 +7,62 @@
     <title>BrainDead</title>
     <style>
         body {
-            background: rgb(87, 162, 148)
+            background: rgb(87, 162, 148);
+            font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen-Snas, Ubuntu, Cantarell;
         }
-        body {
-        font-family: -apple-system,BlinkMacSystemFont,Roboto,Oxygen-Snas,Ubuntu,Cantarell;
+
+        p {
+            color: rgb(45, 82, 61);
         }
-        p{
-            color:rgb(76, 142, 105)
+
+        .boob {
+            color: crimson
         }
-        .boob{
-            color:crimson
+
+        #egg {
+            color: rgb(130, 90, 186)
         }
-        #egg{
-            color:rgb(130, 90, 186)
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        ul li a {
+            color: rgb(200, 50, 150);
+            text-decoration: none;
+            background: linear-gradient(90deg, rgb(80, 25, 120) 0%, rgb(120, 50, 175) 50%, rgb(170, 150, 255) 175%);
+            display: block;
+            width: 500px;
+            height: 10px;
+            padding: 50px;
+            margin: 10px;
+            box-shadow: 10px 15px 3px rgba(58, 12, 82, 0.800);
+            scale: 1;
+            transition: scale 1s, box-shadow 1s;
+        }
+
+        ul li a:hover {
+            background: purple;
+            color: pink;
+            box-shadow: inset 10px 10px 3px rgba(58, 12, 82, 0.800);
+            scale: .8;
         }
     </style>
 </head>
+
 <body>
     <p class="boob"> Test test test</p>
     <p> <span id="egg">test </span>test test</p>
     <ul>
-        <li><a href="text.html">text </a></li>
+        <li><a href="text.html">CLICK HERE FOR TEXT </a></li>
     </ul>
     <ul>
-        <li><a href="quotes.html">quotes </a></li>
+        <li><a href="quotes.html">CLICK HERE FOR QUOTES </a></li>
+    </ul>
+    <ul>
+        <li><a href="boxes.html">CLICK HERE FOR BOXES </a></li>
     </ul>
 </body>
 
